@@ -1,0 +1,69 @@
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.time-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    border-radius: 50rem;
+    border: 10px solid rgb(217, 10, 10);
+    padding:10px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.time-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    border-radius: 50rem;
+    border: 10px solid rgb(87, 188, 87);
+    padding:10px;
+    box-shadow: 20px 40px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.btn{
+    border:none;
+    padding:1rem;
+    margin:0.5rem;
+    margin-top: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    transition: transform 0.3s ease;
+    border-radius: 0.4rem;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.btn:hover{
+   cursor: pointer; 
+}
+.start{
+    background-color: green;
+    color:white;
+}
+.stop{
+    background-color: red;
+    color:white;
+}
+.pause{
+    background-color: yellow;
+}
+.resume{
+    background-color: blue;
+    color:white;
+}
+
+.stopwatch{
+    background-color:yellow;
+    padding:10px;
+    margin-top: 20px;
+    border-radius: 0.3rem;
+}
+
+h1{
+    padding:0px;
+    margin:0px;
+}
